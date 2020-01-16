@@ -1,0 +1,17 @@
+Package: SF12toSF6D
+Title: Mapping SF-12 Component Summary Scores to SF-6D Utility Values
+Version: 0.1.0
+Authors@R: c(person("Ross", "Wilson", email="ross.wilson@otago.ac.nz", role=c("aut", "cre")),
+						 person("J. Haxby", "Abbott", email="haxby.abbott@otago.ac.nz", role="aut"))
+Description: This package provides calculators to estimate the group-level 
+    distribution of SF-6D profiles, mean SF-6D utility values, and corresponding
+    uncertainty intervals from group-level summary statistics (mean and standard
+    deviation) of SF-12 Physical Component Summary (PCS) and Mental Component
+    Summary (MCS) scores in osteoarthritis patients. For details, refer to 'An
+    algorithm to predict mean SF-6D utility values from mean SF-12 MCS and PCS
+    scores in osteoarthritis patients' [manuscript under review].
+Depends: R (>= 3.6.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
